@@ -1,3 +1,8 @@
+First include the pleasework.js. You can also link directly to 
+http://code.google.com/p/pleasework/source/browse/trunk/browsers/pleasework.js
+
+Then, include the javascript for the appropriate browser behaviour.
+
 The javascript files in this folder perform browser capability checks, and
 replace the missing and differently implemented functionality with the target
 platform.
