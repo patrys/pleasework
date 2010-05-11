@@ -1,0 +1,4 @@
+The javascript files in this folder perform browser capability checks, and
+replace the missing and differently implemented functionality with the target
+platform.
+
