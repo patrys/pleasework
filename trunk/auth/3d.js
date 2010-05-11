@@ -28,6 +28,8 @@ function secure3dAuth() {
 }
 
 function testSecure3dAuth() {
+    // June 2008: No longer checking for three hamsters in a wheelchair, the new
+    //            auth logic seems to be more generic
     assert(!validateSecure3dAnswer("Hamster in a wheelchair")); // takes care of ticket #173
     assert(!validateSecure3dAnswer("Two hamsters in a wheelchair")); // ditto for ticket #174
 }
